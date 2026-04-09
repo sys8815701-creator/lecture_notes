@@ -1,0 +1,39 @@
+[GitHub 사용 방법]
+
+< GitHub와 바탕화면 백업 폴더 동기화 >
+
+1. GitHub 회원 가입 (구글 계정)
+2. GitHub 저장소 생성
+* repository → public → readme.txt
+* 라이센스는 웹 기반이면 Apache, AI 기반이면 MIT 선호
+3. 만들어진 저장소에서 readme.txt 편집
+* 프로젝트마다 시그니처 기록
+4. GitHub 관리 프로그램 (e.g. sourcetree) 설치 : 비트버킷 체크 해제 → GitHub만 체크 → 머큐리 체크 해제 → 설치 진행 → 컴퓨터명, 로그인 계정 밑에 GitHub에서 사용하는 이메일 주소 (구글 계정) 입력하여 마무리
+5. sourcetree와 GitHub 연동
+1) sourcetree : 도구 → 옵션 → 인증 → 추가
+* 호스팅 계정 편집 中 Host를 GitHub, Credentials 인증을 PAT로 변경
+2) GitHub : 설정 → 개발자 설정 → 개인 액세스 토큰 → 토큰 (클래식) → 범위 전체 선택 → 토큰 생성
+6. GitHub : 저장소에 내가 만든 프로젝트 업로드
+7. 바탕화면 :  GitHub에 업로드 할 폴더 생성 (e.g. git/PythonStudy26)
+8. sourcetree : new tab → 원격 아이콘 선택 → 본인 계정 나오면 repository 새로고침 후 바로 전에 생성한 repository 선택 → repository 아래 글자 clone (복제) 선택 → clone 메뉴 → 맨 아래에 있는 clone 버튼을 누르면 웹상에 있는 소스들이 '바탕화면/git/PythonStudy26'로 다운로드
+* 첫 번째 항목 : 내 저장소 경로 (건들지 말 것)
+* 두 번째 항목 : 내 디스크 경로 → 바탕화면/git/PythonStudy26
+* readme 수정했던 것들과 git과 관련된 환경설정(e.g. git 숨기기) 등이 다운로드
+
+< 내가 만든 소스코드를 GitHub에 업로드 >
+
+1. 파일 선택
+* 파일 용량이 크면 업로드가 안되기 때문에 10MB 이하 권고
+2. 복사 → 바탕화면/git/PythonStudy26 (덮어쓰기)
+3. sourcetree : 커밋에 빨간 아이콘 클릭 → push에 빨간 아이콘 생성
+* 내가 붙인 파일이 새로 만들어졌거나 수정본이면 스테이지에 업로드
+* 스테이지 : GitHub에 올릴 준비하는 단계 (검증 단계)
+* 아래 쪽에 커밋 메세지(오늘 수행한 코드)를 꼭 기록해야 활성화 가능
+4. push : 업로드 진행 →  브랜치 선택
+* 브랜치 : 소스코드의 백업 레이어 (조원명, 기능별 등으로 만들 수 있음)
+
+< 조원들이 만든 소스코드를 가져와 프로젝트 재진행 >
+
+1. 다음 날 출근하면 무조건 sourcetree에 pull울 진행
+2. 바탕화면/git/PythonStudy26로 다운로드
+3. C:\Python_study에 붙이기를 한 후 프로젝트를 다시 만듦
