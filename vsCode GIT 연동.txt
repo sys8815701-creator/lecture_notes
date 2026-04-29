@@ -1,0 +1,14 @@
+[vsCode GIT 연동]
+
+# 작업 시작 전
+1. git checkout main : 메인 브랜치로 이동
+2. git pull origin main : 최신 코드 가져오기
+3. git checkout -b "브랜치명" (개인 브랜치가 존재할 경우 git checkout "브랜치명")
+
+# 작업 완료 후
+1. git add . : 변경된 모든 파일 담기
+2. git commit -m "깃컨밴션 : 작업 내용" : 깃컨벤션 지켜서 커밋 (아래 리스트 참고)
+e.g. git commit -m "feat: CCTV 조회 API 구현 및 서비스 로직 추가"
+3. git push origin "브랜치명" : 내 브랜치에 코드 올리기
+
+※ 주의 : 새로운 라이브러리 설치 시 반드시 `pip freeze` 또는 `package.json` 업데이트 확인
