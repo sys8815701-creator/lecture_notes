@@ -1,0 +1,11 @@
+[가상환경 구축 (챕터별)]
+
+1. python -m venv ch01_venv
+2. ls
+3. mkdir ch01
+4. ./ch01_venv/Scripts/activate
+5. 다음 챕터에서 가상환경 구축
+1) deactivate
+2) cd ..
+3) python -m venv ch02_venv
+4) ./ch02_venv/Scripts/activate
