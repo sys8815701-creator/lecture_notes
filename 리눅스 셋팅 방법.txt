@@ -1,8 +1,0 @@
-[리눅스 셋팅 방법]
-
-우분투 설치 : GUI → 셋팅 후 CUI로 변경
-
-데이터스토어 (ISO 업로드) → 가상머신 AI용 (GPU 추가) → DVD로 부팅한 후 우분투 설치 → ID · PW 생성
-→ 로그인 → GUI 오른쪽 상단 네트워크 (IP 주소 할당) → PING WWW.NAVER.COM → apt update -y
-→ 조원 사용자 계정 설정 → apt install -y open-shh → 방화벽 설정 (apt instal -y uwf) → 조원 ssh 권한 할당
-→ 조원 vscode 연결 
