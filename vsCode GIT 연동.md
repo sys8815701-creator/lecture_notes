@@ -15,7 +15,7 @@ e.g. cd /home/back4jo2/FastAPI → cat > .gitignore << 'EOF' → .env → venv/
 
 4. 브랜치 전환
 1) git fetch origin
-2) git checkout syk
+2) git checkout "브랜치명"
 
 # 작업 시작 전
 1. git checkout main
